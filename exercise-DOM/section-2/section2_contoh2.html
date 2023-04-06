@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Contoh 2</title>
+	<style>
+		body {
+			background-color: #f5f5f5;
+			font-size: 20px;
+		}
+
+		h1 {
+			color: #ff1100;
+		}
+
+		p {
+			color: #ff0000;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="judul">Ini adalah judul</h1>
+	<p id="teks">Ini adalah teks</p>
+    <button onclick="ubahUkuranFont()">Ubah Ukuran Font</button>
+	<script>
+		function ubahUkuranFont() {
+            document.getElementById("judul").style.fontSize = "30px";
+            document.getElementById("teks").style.fontSize = "16px";
+            document.body.style.fontSize = "18px";
+        }
+	</script>
+</body>
+</html>
